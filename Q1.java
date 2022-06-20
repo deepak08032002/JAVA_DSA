@@ -31,6 +31,7 @@ public class Q1 {
                 return false;
             }
         }
+        // map remains empty
         if (map.size() == 0) {
             return false;
         }
