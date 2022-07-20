@@ -2,22 +2,22 @@
 
 public class Q3 {
     public static void main(String[] args) {
-        int[] arr = { 11, 12, 15, 18, 2, 3, 6, 7 };
-        int n = arr.length;
+        int[] arr = { 11, 12, 15, 18, 2, 5, 6, 8 };
         int l = 0;
-        int h = n - 1;
-        int ans = -1;
-        while (h > l) {
+        int h = arr.length - 1;
+        int r = -1;
+        while (l <= h) {
             int mid = l + (h - l) / 2;
-            if (arr[l] < arr[mid]) {
-                l = mid + 1;
-            } else if (arr[mid] < arr[h]) {
-                h = mid - 1;
-            } else if (arr[mid] < arr[mid - 1] && arr[mid] < arr[mid + 1]) {
-                ans = mid;
+            if (arr[mid] < arr[mid - 1] && arr[mid] < arr[mid + 1]) {
+                r = mid;
+                break;
+            } else if (arr[mid] > arr[0]) {
+                l = mid;
+            } else {
+                h = mid;
             }
         }
-        System.out.println(ans);
+        System.out.println("Array is rotated by " + r + " times. ");
     }
 
 }
