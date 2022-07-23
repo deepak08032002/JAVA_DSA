@@ -20,7 +20,6 @@ public class Q12 {
         // if not present in array
         while (l <= h) {
             int mid = l + (h - l) / 2;
-
             if (nums[mid] < target) {
                 res = mid;
                 l = mid + 1;
