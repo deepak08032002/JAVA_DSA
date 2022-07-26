@@ -28,6 +28,7 @@ public class Q18 {
                 j--;
             }
         }
+        
         return true;
     }
 
