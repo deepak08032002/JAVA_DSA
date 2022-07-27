@@ -18,6 +18,7 @@ public class Q19 {
                 System.out.println(i);
                 break;
             }
+
         }
         System.out.println(-1);
     }
