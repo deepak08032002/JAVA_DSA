@@ -14,6 +14,7 @@ public class Q22 {
             if (map.containsKey(ch)) {
                 map.put(ch, map.get(ch) + 1);
             } else {
+
                 map.put(ch, 1);
             }
             if (map.size() == j - i + 1) {
