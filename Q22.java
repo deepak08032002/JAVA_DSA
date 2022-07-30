@@ -7,7 +7,7 @@ public class Q22 {
         int i = 0;
         int j = 0;
         int max = 0;
-        String s = "abcabcbb";
+        String s = "pwwkew";
         while (j < s.length()) {
             char c1 = s.charAt(i);
             char ch = s.charAt(j);
