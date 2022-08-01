@@ -24,8 +24,10 @@ public class Q25 {
                 }
             }
         }
+
         if (s.isEmpty()) {
-            System.out.println("Valid");
+            System.out.println("Valid parenthesis");
         }
+
     }
 }
