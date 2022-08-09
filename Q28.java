@@ -2,8 +2,8 @@ import java.util.ArrayList;
 
 public class Q28 {
     public static void main(String[] args) {
-        int i = 0;q29.java
-        
+        int i = 0;
+
         int j = 0;
         ArrayList<Integer> list = new ArrayList<Integer>();
         int sum = 0;
