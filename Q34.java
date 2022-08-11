@@ -17,6 +17,7 @@ public class Q34 {
             maxHeap.add(Math.abs(arr[i] - x));
             if (maxHeap.size() > k) {
                 maxHeap.poll();
+                
             }
         }
         while (maxHeap.size() > 0) {
