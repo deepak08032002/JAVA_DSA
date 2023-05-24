@@ -3,7 +3,7 @@
  */
 public class Q1 {
 
-    // Function is to check whether two strings are anagram of each other or not.
+    // Function is to check whether two strings are anagram of each other or not.  .
     public static boolean isAnagram(String str1, String str2) {
 
         // Your code here
